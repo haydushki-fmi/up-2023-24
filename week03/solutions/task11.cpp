@@ -31,4 +31,6 @@ int main() {
   }
 
   std::cout << "y = " << y << std::endl;
+
+  return 0;
 }
