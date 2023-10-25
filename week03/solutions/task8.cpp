@@ -11,4 +11,6 @@ int main() {
     ((n >> 4) & 1) + ((n >> 5) & 1) + ((n >> 6) & 1) + ((n >> 7) & 1));
   std::cout << "The number of 1 bits in " << n << " is " << n_true_bits;
   std::cout << std::endl;
+
+  return 0;
 }
