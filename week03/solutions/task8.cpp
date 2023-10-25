@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 int main() {
   std::cout << "Enter a natural number <= 255:\t";
   unsigned n = 0;
