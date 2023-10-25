@@ -18,4 +18,6 @@ int main() {
   }
 
   std::cout << "x = " << x << std::endl;
+
+  return 0;
 }
