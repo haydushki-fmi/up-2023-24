@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 int main() {
   std::cout << "Enter three numbers:\t";
   float a = 0.0f, b = 0.0f, c = 0.0f;
@@ -28,4 +29,6 @@ int main() {
   else {
     std::cout << c << ' ' << b << ' ' << a << std::endl;
   }
+
+  return 0;
 }
