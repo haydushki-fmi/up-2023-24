@@ -245,16 +245,16 @@ int main() {
   cout << "Task 1\n";
   task1();
 
-  std::cout << "Task 3\n";
+  cout << "Task 3\n";
   task3();
 
-  std::cout << "Task 4\n";
+  cout << "Task 4\n";
   task4();
 
-  std::cout << "Task 6\n";
+  cout << "Task 6\n";
   task6();
 
-  std::cout << "Task 7\n";
+  cout << "Task 7\n";
   task7();
 
   return 0;
