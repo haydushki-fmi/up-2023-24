@@ -1,18 +1,16 @@
 #include <iostream>
 
 std::size_t strlen_safe(const char str[], std::size_t sizeInBytes) {
-    std::size_t length = 0;
-
-    std::size_t i;
-    for (i = 0; str[i] != '\0' && i < sizeInBytes; i++) {
-        length++;
+    std::size_t i = 0;
+    while (str[i] != '\0' && i < sizeInBytes) {
+        i++;
     }
 
     if (i == sizeInBytes) {
         std::cout << "No NULL terminated string!" << std::endl;
     }
 
-    return length;
+    return i;
 }
 
 void strcpy_safe(const char src[], std::size_t srcSize, char dest[], std::size_t destSize) {
